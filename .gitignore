@@ -1,0 +1,33 @@
+# Archivos de modelos PyTorch
+*.pt
+*.pth
+*.zip
+*.tar.gz
+# Carpetas pesadas
+Best/
+aves/
+
+# Checkpoints y cachés comunes
+*.ckpt
+*.h5
+*.weights
+*.npz
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Archivos grandes o de salida
+*.log
+*.csv
+*.json
+.DS_Store
+
+TSNE_images/
+Pret_Weights_and_Features/
+
+# Archivos pesados
+*.csv
+
+# Cache de Python
+__pycache__/
