@@ -15,7 +15,7 @@ batch_size=5
 data_path='/home/julian/PycharmProjects/pythonProject/datos/Kale/data/'
 
 #Verify if the features are extracted yet
-file_path = 'Biolingual_audio_text_embeddings_fold_1.pt' # 'Biolingual_audio_text_embeddings2.pt' #
+file_path = 'Biolingual_audio_text_embeddings2.pt'#Biolingual_audio_text_embeddings_fold_1.pt' # 'Biolingual_audio_text_embeddings2.pt' #
 num_classes=4
 k_shots=1 # Numbers of support examples of each categorie
 num_epochs=40

@@ -93,7 +93,7 @@ class Audio_classifier(torch.nn.Module):
         #similarity_matrix_ZSL = torch.norm(similarity_matrix_ZSL, p=2, dim=1, keepdim=True)
         #similarity_matrix_PSL = torch.norm(similarity_matrix_PSL, p=2, dim=1, keepdim=True)
 
-        final_similarity_matrix= ((1-alpha)*similarity_matrix_ZSL) + (alpha * similarity_matrix_PSL )
+        final_similarity_matrix=((1-alpha)*similarity_matrix_ZSL) + (alpha * similarity_matrix_PSL )
 
         out_logits = final_similarity_matrix / final_similarity_matrix.norm(dim=-1, keepdim=True)
 
